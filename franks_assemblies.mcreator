@@ -1,0 +1,614 @@
+{
+  "mod_elements": [
+    {
+      "name": "Assemblies",
+      "type": "tab",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "assemblies",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Leggie",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leggie",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/franksassemblies/item/LeggieItem.java",
+          "src/main/resources/assets/franks_assemblies/models/item/leggie.json"
+        ]
+      }
+    },
+    {
+      "name": "Nuggie",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nuggie",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/franks_assemblies/models/item/nuggie.json",
+          "src/main/java/net/mcreator/franksassemblies/item/NuggieItem.java"
+        ]
+      }
+    },
+    {
+      "name": "PotatoBlock",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potato_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/franks_assemblies/loot_tables/blocks/potato_block.json",
+          "src/main/resources/assets/franks_assemblies/models/item/potato_block.json",
+          "src/main/resources/assets/franks_assemblies/models/block/potato_block.json",
+          "src/main/java/net/mcreator/franksassemblies/block/PotatoBlockBlock.java",
+          "src/main/resources/assets/franks_assemblies/blockstates/potato_block.json"
+        ]
+      }
+    },
+    {
+      "name": "BakedPotatoBlock",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baked_potato_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/franksassemblies/block/BakedPotatoBlockBlock.java",
+          "src/main/resources/assets/franks_assemblies/models/item/baked_potato_block.json",
+          "src/main/resources/data/franks_assemblies/loot_tables/blocks/baked_potato_block.json",
+          "src/main/resources/assets/franks_assemblies/blockstates/baked_potato_block.json",
+          "src/main/resources/assets/franks_assemblies/models/block/baked_potato_block.json"
+        ]
+      }
+    },
+    {
+      "name": "Bake",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bake",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/franks_assemblies/recipes/bake.json"
+        ]
+      }
+    },
+    {
+      "name": "Potatoeblockrecipe",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potatoeblockrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/franks_assemblies/recipes/potatoeblockrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Nuggierecipe",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nuggierecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/franks_assemblies/recipes/nuggierecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Leggieremake",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leggieremake",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/franks_assemblies/recipes/leggieremake.json"
+        ]
+      }
+    },
+    {
+      "name": "LeggiesPickaxe",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leggies_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/franksassemblies/item/LeggiesPickaxeItem.java",
+          "src/main/resources/assets/franks_assemblies/models/item/leggies_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "LeggiesAxe",
+      "type": "tool",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leggies_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/franksassemblies/item/LeggiesAxeItem.java",
+          "src/main/resources/assets/franks_assemblies/models/item/leggies_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "LeggiesSword",
+      "type": "tool",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leggies_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/franksassemblies/item/LeggiesSwordItem.java",
+          "src/main/resources/assets/franks_assemblies/models/item/leggies_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "LeggiesShovel",
+      "type": "tool",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leggies_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/franks_assemblies/models/item/leggies_shovel.json",
+          "src/main/java/net/mcreator/franksassemblies/item/LeggiesShovelItem.java"
+        ]
+      }
+    },
+    {
+      "name": "LeggiesHoe",
+      "type": "tool",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leggies_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/franksassemblies/item/LeggiesHoeItem.java",
+          "src/main/resources/assets/franks_assemblies/models/item/leggies_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "LeggiesPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leggies_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/franks_assemblies/recipes/leggies_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "LeggiesAxeRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leggies_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/franks_assemblies/recipes/leggies_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "LeggiesSwordRecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leggies_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/franks_assemblies/recipes/leggies_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "LeggiesShovelRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leggies_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/franks_assemblies/recipes/leggies_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "LeggiesHoeRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leggies_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/franks_assemblies/recipes/leggies_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NuggierDust",
+      "type": "item",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nuggier_dust",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/franksassemblies/item/NuggierDustItem.java",
+          "src/main/resources/assets/franks_assemblies/models/item/nuggier_dust.json"
+        ]
+      }
+    },
+    {
+      "name": "NuggierOre",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nuggier_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/franks_assemblies/models/block/nuggier_ore.json",
+          "src/main/resources/data/franks_assemblies/worldgen/placed_feature/nuggier_ore.json",
+          "src/main/resources/data/franks_assemblies/forge/biome_modifier/nuggier_ore_biome_modifier.json",
+          "src/main/resources/assets/franks_assemblies/models/item/nuggier_ore.json",
+          "src/main/resources/data/franks_assemblies/loot_tables/blocks/nuggier_ore.json",
+          "src/main/java/net/mcreator/franksassemblies/block/NuggierOreBlock.java",
+          "src/main/resources/assets/franks_assemblies/blockstates/nuggier_ore.json",
+          "src/main/resources/data/franks_assemblies/worldgen/configured_feature/nuggier_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "NuggierBlock",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nuggier_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/franks_assemblies/models/item/nuggier_block.json",
+          "src/main/resources/assets/franks_assemblies/models/block/nuggier_block.json",
+          "src/main/java/net/mcreator/franksassemblies/block/NuggierBlockBlock.java",
+          "src/main/resources/data/franks_assemblies/loot_tables/blocks/nuggier_block.json",
+          "src/main/resources/assets/franks_assemblies/blockstates/nuggier_block.json"
+        ]
+      }
+    },
+    {
+      "name": "NuggierOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nuggier_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/franks_assemblies/recipes/nuggier_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NuggierBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nuggier_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/franks_assemblies/recipes/nuggier_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NuggierOreSmelting",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nuggier_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/franks_assemblies/recipes/nuggier_ore_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "NuggierPickaxe",
+      "type": "tool",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nuggier_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/franksassemblies/item/NuggierPickaxeItem.java",
+          "src/main/resources/assets/franks_assemblies/models/item/nuggier_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "NuggierAxe",
+      "type": "tool",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nuggier_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/franksassemblies/item/NuggierAxeItem.java",
+          "src/main/resources/assets/franks_assemblies/models/item/nuggier_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "NuggierSword",
+      "type": "tool",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nuggier_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/franksassemblies/item/NuggierSwordItem.java",
+          "src/main/resources/assets/franks_assemblies/models/item/nuggier_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "NuggierShovel",
+      "type": "tool",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nuggier_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/franksassemblies/item/NuggierShovelItem.java",
+          "src/main/resources/assets/franks_assemblies/models/item/nuggier_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "NuggierHoe",
+      "type": "tool",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nuggier_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/franksassemblies/item/NuggierHoeItem.java",
+          "src/main/resources/assets/franks_assemblies/models/item/nuggier_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "NuggierPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nuggier_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/franks_assemblies/recipes/nuggier_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NuggierAxeRecipe",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nuggier_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/franks_assemblies/recipes/nuggier_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NuggierSwordRecipe",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nuggier_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/franks_assemblies/recipes/nuggier_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NuggierShovelRecipe",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nuggier_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/franks_assemblies/recipes/nuggier_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NuggierHoeRecipe",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nuggier_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/franks_assemblies/recipes/nuggier_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NuggierArmor",
+      "type": "armor",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nuggier_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/franks_assemblies/models/item/nuggier_armor_chestplate.json",
+          "src/main/java/net/mcreator/franksassemblies/item/NuggierArmorItem.java",
+          "src/main/resources/assets/franks_assemblies/models/item/nuggier_armor_helmet.json",
+          "src/main/resources/assets/franks_assemblies/models/item/nuggier_armor_leggings.json",
+          "src/main/resources/assets/franks_assemblies/models/item/nuggier_armor_boots.json"
+        ]
+      }
+    },
+    {
+      "name": "NuggierArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nuggier_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/franks_assemblies/recipes/nuggier_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NuggierArmorChestplateRecipe",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nuggier_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/franks_assemblies/recipes/nuggier_armor_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NuggierArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nuggier_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/franks_assemblies/recipes/nuggier_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NuggierArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nuggier_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/franks_assemblies/recipes/nuggier_armor_boots_recipe.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:NuggierBlock",
+      "~CUSTOM:NuggierOre"
+    ]
+  },
+  "language_map": {
+    "en_us": {
+      "item.franks_assemblies.leggies_shovel": "Leggies Shovel",
+      "item.franks_assemblies.leggies_axe": "Leggies Axe",
+      "item.franks_assemblies.nuggier_armor_leggings": "Nuggier Leggings",
+      "item_group.franks_assemblies.assemblies": "Assemblies",
+      "block.franks_assemblies.baked_potato_block": "Baked Potato Block",
+      "item.franks_assemblies.leggies_pickaxe": "Leggies Pickaxe",
+      "item.franks_assemblies.nuggier_dust": "Nuggier",
+      "item.franks_assemblies.nuggier_pickaxe": "Nuggier Pickaxe",
+      "item.franks_assemblies.nuggier_armor_helmet": "Nuggier Helmet",
+      "block.franks_assemblies.nuggier_block": "Block of Nuggier",
+      "item.franks_assemblies.nuggier_armor_boots": "Nuggier Boots",
+      "block.franks_assemblies.nuggier_ore": "Nuggier Ore",
+      "item.franks_assemblies.nuggier_shovel": "Nuggier Shovel",
+      "item.franks_assemblies.nuggier_axe": "Nuggier Axe",
+      "item.franks_assemblies.leggies_hoe": "Leggies Hoe",
+      "item.franks_assemblies.leggies_sword": "Leggies Sword",
+      "block.franks_assemblies.potato_block": "Potato Block",
+      "item.franks_assemblies.nuggier_sword": "Nuggier Sword",
+      "item.franks_assemblies.leggie": "Leggie",
+      "item.franks_assemblies.nuggie": "Nuggie",
+      "item.franks_assemblies.nuggier_hoe": "Nuggier Hoe",
+      "item.franks_assemblies.nuggier_armor_chestplate": "Nuggier Chestplate"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "franks_assemblies",
+    "modName": "Franks Assemblies",
+    "version": "1.0.0",
+    "description": "This is random items in the mc",
+    "author": "PolishDev",
+    "websiteURL": "https://mcreator.net",
+    "license": "MIT License",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.franksassemblies"
+  },
+  "mcreatorVersion": 202400118518
+}
